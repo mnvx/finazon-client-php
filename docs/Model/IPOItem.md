@@ -1,0 +1,48 @@
+# IPOItem
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**currency** | **string** | The currency code of the security according to the ISO 4217 standard | [optional] 
+**date** | **string** | Date when earnings are disbursed | [optional] 
+**deal_status** | **string** | Activity tracked for the IPO status | [optional] 
+**description** | **string** | Description | [optional] 
+**initial_filing_date** | **string** | Initial filing date | [optional] 
+**insider_lockup_date** | **string** | Date range that represents the insider lock up period | [optional] 
+**insider_lockup_days** | **int** | Amount of days for the insider lockup period | [optional] 
+**ipo_type** | **string** | IPO type | [optional] 
+**last_yr_income** | **double** | Last year income | [optional] 
+**last_yr_income_year** | **double** | Last year income | [optional] 
+**last_yr_revenue** | **double** | Last year revenue | [optional] 
+**last_yr_revenue_year** | **double** | Last year revenue | [optional] 
+**lead_underwriters** | **string[]** | Firm that lead the underwriting process | [optional] 
+**market_cap_at_offer** | **double** | Market cap at offer | [optional] 
+**mic** | **string** | Market identifier code (MIC) under ISO 10383 standard | [optional] 
+**name** | **string** | Full name of the instrument | [optional] 
+**notes** | **string** | Notes | [optional] 
+**offering_shares** | **double** | Amount of shares being offered | [optional] 
+**offering_shares_ord_adr** | **double** | Amount of ordinary shares being offered | [optional] 
+**offering_value** | **double** | Number of shares being offered x price per share | [optional] 
+**open_date_verified** | **bool** | Indicates if the predicted date has been verified by the company | [optional] 
+**ord_shares_out_after_offer** | **double** | Ordinary shares out after offer | [optional] 
+**other_underwriters** | **string[]** | Additional firms that were a part of the underwriting | [optional] 
+**price_max** | **double** | Maximum projected IPO price range | [optional] 
+**price_min** | **double** | Minimum  projected IPO price range | [optional] 
+**price_open** | **double** | The opening price at the beginning of the first trading day (only available for priced IPOs) | [optional] 
+**price_public_offering** | **double** | Public offering price | [optional] 
+**pricing_date** | **string** | Pricing date | [optional] 
+**record_id** | **string** | Unique record ID from Benzinga | [optional] 
+**sec_accession_number** | **string** | SEC accession number | [optional] 
+**sec_filing_url** | **string** | The IRL to the company&#x27;s S-1, S-1/A, F-1, or F-1/A SEC filing, which is required to be filed before an IPO takes place. | [optional] 
+**shares_outstanding** | **double** | Outstanding shares | [optional] 
+**sic** | **double** | SIC | [optional] 
+**spac_converted_to_target** | **bool** | ISs Spac converted to target | [optional] 
+**state_location** | **string** | State location | [optional] 
+**ticker** | **string** | Ticker symbol of the instrument | [optional] 
+**time** | **string** | Time when earnings are disbursed | [optional] 
+**underwriter_quiet_expiration_date** | **string** | Date of expiration for the underwriter quiet period | [optional] 
+**underwriter_quiet_expiration_days** | **int** | Days of expiration for the underwriter quiet period | [optional] 
+**updated** | **int** | Last updated timestamp (UNIX) | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
